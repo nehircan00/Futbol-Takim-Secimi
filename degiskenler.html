@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="degisken.js"></script>
+    <link rel="stylesheet" href="degisken.css">
+    <title>Degiskenler</title>
+</head>
+<body>
+    <form>
+    <label for="txtad">Adınızı giriniz</label>
+     <input type="text" id="txtad">
+      
+     <label for="txtsoyad">Soyadınızı giriniz</label>
+     <input type="text" id="txtsoyad">
+
+     <label for="yasın">Yaşınızı giriniz</label>
+     <input type="yas" id="txtyas">
+
+     <label for="listeTakimlar"></label>
+     <select name="takim" id="listeTakimlar">
+         <option value="bjk">Beşiktaş</option>
+         <option value="fb">Fenerbahçe</option>
+         <option value="gs">Galatasaray</option>
+         <option value="ts">Trabzonspor</option>
+     </select>
+
+     <input type="button" value="gönder" id="btngönder" onclick="merhaba()">
+    </form>
+    <h3 id="sonucBaslik"></h3>
+    <p id="yazi"></p>
+    <img id="resim" src="" >
+</body>
+</html>
